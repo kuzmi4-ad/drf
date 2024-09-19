@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class LogConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'log'
-    maxFileSize = 1024 * 1024
+    maxFileSize = 1024 * 1024 * 1024
